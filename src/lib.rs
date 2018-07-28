@@ -33,19 +33,19 @@ pub const GIGASECOND: Duration = Duration::from_secs(1_000_000_000);
 ///
 /// Note that it's different from UTC minute, which can be 59-61 seconds long.
 pub const MINUTE: Duration = Duration::from_secs(60);
-/// 1 hour (60*60 = 3 600 seconds).
+/// 1 hour (60\*60 = 3 600 seconds).
 ///
 /// Note that it's different from UTC hour, which can be 3559-3661 seconds long.
 pub const HOUR: Duration = Duration::from_secs(3_600);
-/// 1 day (24*60*60 = 86 400 seconds).
+/// 1 day (24\*60\*60 = 86 400 seconds).
 ///
 /// Note that it's different from UTC day, length of which can vary from plus
 /// minus second (leap seconds) and up to plus minus an hour (Daylight Save Time).
 pub const DAY: Duration = Duration::from_secs(86_400);
-/// 1 week (7*24*60*60 = 604 800 seconds).
+/// 1 week (7\*24\*60\*60 = 604 800 seconds).
 ///
 /// Note that it's different from UTC week, length of which can vary due to the
 /// existence of leap seconds and Daylight Save Time.
 pub const WEEK: Duration = Duration::from_secs(604_800);
-/// 1 Julian year (365.25*24*60*60 = 31 557 600 seconds).
+/// 1 Julian year (365.25\*24\*60\*60 = 31 557 600 seconds).
 pub const YEAR: Duration = Duration::from_secs(31_557_600);
