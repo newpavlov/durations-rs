@@ -1,0 +1,9 @@
+[package]
+name = "durations"
+version = "0.1.0"
+authors = ["Artyom Pavlov <newpavlov@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Duration constants"
+documentation = "https://docs.rs/durations"
+repository = "https://github.com/newpavlov/durations"
+keywords = ["time", "duration", "constants"]
