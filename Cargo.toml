@@ -5,6 +5,6 @@ authors = ["Artyom Pavlov <newpavlov@gmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "Duration constants"
 documentation = "https://docs.rs/durations"
-repository = "https://github.com/newpavlov/durations"
+repository = "https://github.com/newpavlov/durations-rs"
 keywords = ["time", "duration", "constants"]
 categories = ["date-and-time", "no-std"]
